@@ -1,0 +1,118 @@
+.organizers {
+  padding: 80px 0;
+  background: var(--black-secondary);
+}
+
+.organizers__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.organizers__title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-light);
+  margin-bottom: 24px;
+}
+
+.organizers__capace {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.organizers__logo-main {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
+.organizers__full-name {
+  font-size: 0.85rem;
+  color: var(--gray-light);
+}
+
+.organizers__divider {
+  width: 60px;
+  height: 1px;
+  background: rgba(201, 149, 46, 0.2);
+  margin: 32px 0;
+}
+
+.organizers__badge {
+  margin-bottom: 40px;
+}
+
+.organizers__ptw-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.organizers__sponsors {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.organizers__sponsors-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.organizers__sponsors-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gray-medium);
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+.organizers__logos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.organizers__logo-card {
+  padding: 16px 28px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.3s ease;
+}
+
+.organizers__logo-card:hover {
+  border-color: rgba(201, 149, 46, 0.25);
+}
+
+.organizers__logo-img {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.85;
+}
+
+@media (max-width: 640px) {
+  .organizers {
+    padding: 60px 0;
+  }
+
+  .organizers__logo-img {
+    height: 26px;
+  }
+}

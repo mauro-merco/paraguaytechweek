@@ -1,0 +1,129 @@
+.footer {
+  padding: 60px 0 32px;
+  background: var(--black-primary);
+  border-top: 1px solid rgba(201, 149, 46, 0.1);
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.footer__brand {
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__logo-img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.footer__full-name {
+  font-size: 0.8rem;
+  color: var(--gray-light);
+  line-height: 1.5;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer__nav a {
+  font-size: 0.85rem;
+  color: var(--gray-light);
+  transition: color 0.2s ease;
+}
+
+.footer__nav a:hover {
+  color: var(--gold-primary);
+}
+
+.footer__social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__social-link {
+  font-size: 0.85rem;
+  color: var(--gray-light);
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.footer__social-link:hover {
+  border-color: var(--gold-primary);
+  color: var(--gold-primary);
+}
+
+.footer__divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  margin: 32px 0;
+}
+
+.footer__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.footer__copyright {
+  font-size: 0.75rem;
+  color: var(--gray-medium);
+}
+
+.footer__legal {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.footer__legal a {
+  font-size: 0.75rem;
+  color: var(--gray-medium);
+  transition: color 0.2s ease;
+}
+
+.footer__legal a:hover {
+  color: var(--gold-primary);
+}
+
+.footer__legal-sep {
+  color: var(--gray-medium);
+}
+
+.footer__contact {
+  font-size: 0.75rem;
+  color: var(--gray-medium);
+}
+
+.footer__contact a {
+  color: var(--gold-primary);
+}
+
+@media (max-width: 768px) {
+  .footer__top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__nav {
+    justify-content: center;
+  }
+}

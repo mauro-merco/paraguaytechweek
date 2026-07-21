@@ -1,0 +1,140 @@
+.agenda {
+  padding: 100px 0;
+  background: var(--black-secondary);
+}
+
+.agenda__table-wrapper {
+  margin-top: 48px;
+  overflow-x: auto;
+}
+
+.agenda__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.agenda__table thead th {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gold-primary);
+  font-weight: 600;
+  text-align: left;
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(201, 149, 46, 0.2);
+}
+
+.agenda__table tbody tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.2s ease;
+}
+
+.agenda__table tbody tr:hover {
+  background: rgba(201, 149, 46, 0.03);
+}
+
+.agenda__table tbody td {
+  padding: 16px 20px;
+  font-size: 0.9rem;
+  vertical-align: top;
+}
+
+.agenda__time {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--gold-luminous);
+  white-space: nowrap;
+  width: 140px;
+}
+
+.agenda__activity {
+  color: var(--white);
+  font-weight: 500;
+}
+
+.agenda__participants {
+  color: var(--gray-light);
+  font-size: 0.85rem;
+}
+
+/* Timeline (mobile) */
+.agenda__timeline {
+  display: none;
+  margin-top: 48px;
+  position: relative;
+  padding-left: 32px;
+}
+
+.agenda__timeline::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(201, 149, 46, 0.3);
+}
+
+.agenda__timeline-item {
+  position: relative;
+  padding-bottom: 32px;
+}
+
+.agenda__timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.agenda__timeline-dot {
+  position: absolute;
+  left: -28px;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--gold-primary);
+  border: 2px solid var(--black-secondary);
+}
+
+.agenda__timeline-time {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--gold-luminous);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.agenda__timeline-activity {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 4px;
+}
+
+.agenda__timeline-participants {
+  font-size: 0.8rem;
+  color: var(--gray-light);
+}
+
+.agenda__note {
+  margin-top: 32px;
+  font-size: 0.8rem;
+  color: var(--gray-medium);
+  text-align: center;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .agenda__table-wrapper {
+    display: none;
+  }
+
+  .agenda__timeline {
+    display: block;
+  }
+
+  .agenda {
+    padding: 60px 0;
+  }
+}
