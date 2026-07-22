@@ -16,14 +16,14 @@ const SPEAKERS = [
     name: 'Marcelo García Cisneros',
     country: 'Argentina',
     role: 'Cofundador & CEO de Wego Digital Hub',
-    description: 'Especialista en transformación digital, eCommerce e inteligencia artificial.',
+    description: 'CEO y cofundador de WeGo Digital Hub. Referente en transformación digital, innovación y estrategia de negocios, cuenta con una destacada trayectoria liderando proyectos de marketing, tecnología y crecimiento empresarial en América Latina.',
     photo: martinImg,
   },
   {
     name: 'Martín Vivas',
     country: 'Argentina',
     role: 'CEO y cofundador de BeyondFuture.tech',
-    description: 'Especialista en innovación e inteligencia artificial, cuenta con más de 12 años de experiencia asesorando a grandes empresas, gobiernos y startups de alto potencial, además de ser mentor en programas como Google for Startups y Techstars.',
+    description: 'CEO y cofundador de BeyondFuture.tech. Especialista en innovación e inteligencia artificial, cuenta con más de 12 años de experiencia asesorando a grandes empresas, gobiernos y startups de alto potencial, además de ser mentor en programas como Google for Startups y Techstars.',
     photo: marceloImg,
   },
 ];
