@@ -35,7 +35,7 @@ export default function Agenda() {
       <div className="agenda__inner section-container fade-in" ref={ref}>
         <span className="section-label">Programa</span>
         <h2 className="section-title">
-          Una mañana para conectar, aprender y decidir
+          Una mañana para conectar y decidir
         </h2>
         <div className="gold-line" />
 

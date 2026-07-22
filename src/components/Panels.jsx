@@ -21,7 +21,7 @@ const PANELS = [
     type: 'Panel de inversión',
     title: 'Expansión e inversión regional',
     description: 'La decisión de invertir y expandirse en la nueva economía digital.',
-    participants: 'Marcelo García Cisneros · Marta Cruz · empresarios e inversionistas invitados',
+    participants: 'Marcelo García Cisneros · Martín Vivas · empresarios e inversionistas invitados',
   },
   {
     number: '04',

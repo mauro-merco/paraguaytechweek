@@ -47,20 +47,15 @@ export default function Hero() {
           que están transformando los negocios, la inversión y el ecosistema digital.
         </p>
 
-        <div className="hero__data">
-          <div className="hero__data-item">
-            <span className="hero__data-label">Fecha</span>
-            <span className="hero__data-value">Lunes 3 de agosto de 2026</span>
-          </div>
-          <div className="hero__data-sep" aria-hidden="true" />
-          <div className="hero__data-item">
-            <span className="hero__data-label">Horario</span>
-            <span className="hero__data-value">09:00 a 12:00 h</span>
-          </div>
-          <div className="hero__data-sep" aria-hidden="true" />
-          <div className="hero__data-item">
-            <span className="hero__data-label">Lugar</span>
-            <span className="hero__data-value">Hotel La Misión · Asunción</span>
+        <div className="hero__sponsors">
+          <span className="hero__sponsors-label">Auspiciantes</span>
+          <div className="hero__sponsors-logos">
+            <img src="/bancard.png" alt="Bancard" className="hero__sponsors-logo" />
+            <img src="/infonegocios.png" alt="Infonegocios" className="hero__sponsors-logo" />
+            <img src="/thinkchat.png" alt="ThinkChat" className="hero__sponsors-logo" />
+            <img src="/merco.png" alt="Merco" className="hero__sponsors-logo" />
+            <img src="/grupoaex.png" alt="Grupo AEX" className="hero__sponsors-logo" />
+            <img src="/ceopy.png" alt="Ceopy" className="hero__sponsors-logo" />
           </div>
         </div>
 

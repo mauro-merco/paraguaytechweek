@@ -1,4 +1,7 @@
 import { useEffect, useRef } from 'react';
+import mariaImg from '../assets/images/María_Bretón_Gallego-.png';
+import marceloImg from '../assets/images/Marcelo_García_Cisneros-.png';
+import martinImg from '../assets/images/Martín_Vivas-.jpg';
 import './Speakers.css';
 
 const SPEAKERS = [
@@ -6,22 +9,22 @@ const SPEAKERS = [
     name: 'María Bretón Gallego',
     country: 'España',
     role: 'Consultora en IA aplicada a los negocios y docente en Marketing Digital',
-    description: 'Especialista en inteligencia artificial, transformación digital y marketing, con experiencia en formación ejecutiva para equipos directivos.',
-    initials: 'MB',
+    description: 'Experta en Inteligencia Artificial, transformación digital e innovación, con más de 18 años de trayectoria liderando estrategias digitales para empresas internacionales. Actualmente desarrolla soluciones basadas en IA y machine learning para acelerar el crecimiento y la competitividad de las organizaciones.',
+    photo: mariaImg,
   },
   {
     name: 'Marcelo García Cisneros',
     country: 'Argentina',
     role: 'Cofundador & CEO de Wego Digital Hub',
     description: 'Especialista en transformación digital, eCommerce e inteligencia artificial.',
-    initials: 'MG',
+    photo: marceloImg,
   },
   {
-    name: 'Marta Cruz',
+    name: 'Martín Vivas',
     country: 'Argentina',
-    role: 'Cofundadora y General Partner de NXTP Ventures',
-    description: 'Referente en inversión regional y startups B2B de base tecnológica. NXTP Ventures tiene foco en Latinoamérica y ha invertido en seis unicornios.',
-    initials: 'MC',
+    role: 'CEO y cofundador de BeyondFuture.tech',
+    description: 'Especialista en innovación e inteligencia artificial, cuenta con más de 12 años de experiencia asesorando a grandes empresas, gobiernos y startups de alto potencial, además de ser mentor en programas como Google for Startups y Techstars.',
+    photo: martinImg,
   },
 ];
 
@@ -56,9 +59,7 @@ export default function Speakers() {
           {SPEAKERS.map((speaker) => (
             <article key={speaker.name} className="speakers__card">
               <div className="speakers__photo-frame">
-                <div className="speakers__photo-placeholder">
-                  <span className="speakers__initials">{speaker.initials}</span>
-                </div>
+                <img src={speaker.photo} alt={speaker.name} className="speakers__photo" />
               </div>
               <div className="speakers__info">
                 <span className="speakers__country">{speaker.country}</span>
@@ -70,10 +71,6 @@ export default function Speakers() {
             </article>
           ))}
         </div>
-
-        <p className="speakers__note">
-          Usar las fotografías y datos suministrados por la organización.
-        </p>
       </div>
     </section>
   );

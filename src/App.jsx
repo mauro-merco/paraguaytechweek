@@ -6,7 +6,6 @@ import About from './components/About';
 import Speakers from './components/Speakers';
 import Panels from './components/Panels';
 import Agenda from './components/Agenda';
-import Benefits from './components/Benefits';
 import Venue from './components/Venue';
 import Registration from './components/Registration';
 import Organizers from './components/Organizers';
@@ -41,7 +40,6 @@ export default function App() {
         <Speakers />
         <Panels />
         <Agenda />
-        <Benefits />
         <Venue />
         <Registration />
         <Organizers />
