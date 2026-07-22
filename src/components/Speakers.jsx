@@ -17,14 +17,14 @@ const SPEAKERS = [
     country: 'Argentina',
     role: 'Cofundador & CEO de Wego Digital Hub',
     description: 'Especialista en transformación digital, eCommerce e inteligencia artificial.',
-    photo: marceloImg,
+    photo: martinImg,
   },
   {
     name: 'Martín Vivas',
     country: 'Argentina',
     role: 'CEO y cofundador de BeyondFuture.tech',
     description: 'Especialista en innovación e inteligencia artificial, cuenta con más de 12 años de experiencia asesorando a grandes empresas, gobiernos y startups de alto potencial, además de ser mentor en programas como Google for Startups y Techstars.',
-    photo: martinImg,
+    photo: marceloImg,
   },
 ];
 
