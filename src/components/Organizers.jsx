@@ -2,10 +2,15 @@ import './Organizers.css';
 
 const SPONSORS = [
   { name: 'Bancard', logo: '/bancard.png' },
-  { name: 'Infonegocios', logo: '/infonegocios.png' },
   { name: 'ThinkChat', logo: '/thinkchat.png' },
   { name: 'Merco', logo: '/merco.png' },
   { name: 'Grupo AEX', logo: '/grupoaex.png' },
+  { name: 'Fenicio', logo: '/fenicio.png' },
+  { name: 'VTEX', logo: '/vtex.png' },
+];
+
+const MEDIA_PARTNERS = [
+  { name: 'Infonegocios', logo: '/infonegocios.png' },
   { name: 'Ceopy', logo: '/ceopy.png' },
 ];
 
@@ -31,6 +36,17 @@ export default function Organizers() {
             <span className="organizers__sponsors-label">Sponsors</span>
             <div className="organizers__logos">
               {SPONSORS.map((s) => (
+                <div key={s.name} className="organizers__logo-card">
+                  <img src={s.logo} alt={s.name} className="organizers__logo-img" />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="organizers__sponsors-group">
+            <span className="organizers__sponsors-label">Media Partners</span>
+            <div className="organizers__logos">
+              {MEDIA_PARTNERS.map((s) => (
                 <div key={s.name} className="organizers__logo-card">
                   <img src={s.logo} alt={s.name} className="organizers__logo-img" />
                 </div>

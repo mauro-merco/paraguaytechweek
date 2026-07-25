@@ -46,14 +46,6 @@ export default function Footer() {
           <p className="footer__copyright">
             © 2026 CAPACE — Cámara Paraguaya de Comercio Electrónico. Todos los derechos reservados.
           </p>
-          <div className="footer__legal">
-            <a href="[URL_POLITICA_PRIVACIDAD]">Política de privacidad</a>
-            <span className="footer__legal-sep">·</span>
-            <a href="#">Términos y condiciones</a>
-          </div>
-          <p className="footer__contact">
-            Contacto: <a href="mailto:[EMAIL_CONTACTO]">[EMAIL_CONTACTO]</a>
-          </p>
         </div>
       </div>
     </footer>

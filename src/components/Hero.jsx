@@ -51,10 +51,17 @@ export default function Hero() {
           <span className="hero__sponsors-label">Auspiciantes</span>
           <div className="hero__sponsors-logos">
             <img src="/bancard.png" alt="Bancard" className="hero__sponsors-logo" />
-            <img src="/infonegocios.png" alt="Infonegocios" className="hero__sponsors-logo" />
             <img src="/thinkchat.png" alt="ThinkChat" className="hero__sponsors-logo" />
             <img src="/merco.png" alt="Merco" className="hero__sponsors-logo" />
             <img src="/grupoaex.png" alt="Grupo AEX" className="hero__sponsors-logo" />
+            <img src="/fenicio.png" alt="Fenicio" className="hero__sponsors-logo" />
+            <img src="/vtex.png" alt="VTEX" className="hero__sponsors-logo" />
+          </div>
+        </div>
+        <div className="hero__sponsors">
+          <span className="hero__sponsors-label">Media Partners</span>
+          <div className="hero__sponsors-logos">
+            <img src="/infonegocios.png" alt="Infonegocios" className="hero__sponsors-logo" />
             <img src="/ceopy.png" alt="Ceopy" className="hero__sponsors-logo" />
           </div>
         </div>
